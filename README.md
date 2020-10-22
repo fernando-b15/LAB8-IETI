@@ -6,8 +6,33 @@
    
 ## Credentials Of User
 
-  * **Mail:** test@hotmail.com
+  * **Mail:** test@mail.com
   * **Password:** password
+  
+## Test
+
+Primero vamos a probar el  task controller con una peticion post  para registar una nueva tarea
+
+![image1](https://github.com/fernando-b15/LAB8-IETI/blob/master/img/test1.PNG)
+ 
+ Ahora vamos al login del front y procedemos a loguearnos con las crdenciales user = test@mail.com y password = password y validamos que logramos entrar a la vista home
+ y vemos que se carga la tarea que registramos previamente
+ 
+ ![imagen2](https://github.com/fernando-b15/LAB8-IETI/blob/master/img/test2.PNG)
+ 
+ Adicionalmente podemos validar en el localstorage que tenemos el token que se nos dio por autenticarnos correctamente
+ 
+ ![imagen3](https://github.com/fernando-b15/LAB8-IETI/blob/master/img/test5.png)
+ 
+ Ahora vamos a insertar dos tareas nuevas desde el front y ver que efectivamente use el task controller del back para registrar las dos nuevas tareas
+ 
+ ![imagen4](https://github.com/fernando-b15/LAB8-IETI/blob/master/img/test6.PNG)
+ 
+ Ahora vamos al home y vemos que efectivamente se insertaron la dos nuevas tareas 
+  ![imagen5](https://github.com/fernando-b15/LAB8-IETI/blob/master/img/test3.PNG)
+  
+  Por ultimo podemos verficar en controlador get del back que efectivamente estan la tres tareas que hemos registrado
+  ![imagen6](https://github.com/fernando-b15/LAB8-IETI/blob/master/img/test4.PNG)
   
 **Goals**
 
