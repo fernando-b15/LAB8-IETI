@@ -1,5 +1,14 @@
-# 2.2 Spring Boot Secure API
+# LAB8-IETI
 
+# Autor
+
+   * [Fernando Barrera Barrera](https://github.com/fernando-b15) :guitar:
+   
+## Credentials Of User
+
+  * **Mail:** test@hotmail.com
+  * **Password:** password
+  
 **Goals**
 
 * Implement a secure API using the JSON Web Token open standard (RFC 7519). 
